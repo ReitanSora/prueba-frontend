@@ -20,7 +20,7 @@ function App() {
       <div className="card">
         {users?.map(item => {
           return(
-            <p>{item.name} {item.email} {item.direction} {item.petPhoto}</p>
+            <p>{item.name} | {item.email} {item.direction} {item.petPhoto}</p>
           )
         })}
       </div>
